@@ -1,5 +1,3 @@
-# Part 2: A Little More of a Challenge
-
 ## Question 1
 
 At line 12, the code prints:

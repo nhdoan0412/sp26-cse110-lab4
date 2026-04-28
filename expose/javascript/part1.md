@@ -1,5 +1,3 @@
-# Part 1: A Quick Introduction
-
 ## Question 1
 
 Line 9 prints:
@@ -22,7 +20,8 @@ This works because `var` is function-scoped. Even though `result` was declared i
 
 ## Question 3
 
-You should avoid using `var` because it has function scope instead of block scope. This can make variables accessible in places where you might not expect them to be accessible. It can also cause naming conflicts and bugs because `var` variables can be redeclared and are hoisted. In modern JavaScript, `let` and `const` are preferred because they have block scope and make the code easier to reason about.
+We should avoid using `var` because it is function-scoped instead of block-scoped. This means a variable declared inside an `if` block or loop can still be accessed elsewhere in the same function, which can lead to unexpected behavior. `var` can also be redeclared, making bugs harder to catch. let and const are alternatives that should be used instead of var because there is more control.
+
 
 ## Question 4
 
